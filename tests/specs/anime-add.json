@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Добавить аниме",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Initiates adding a new anime to the tracker"
+            }
+          }
+        ],
+        "send": {
+          "callback": "anime:add"
+        }
+      }
+    ]
+  }
+]
